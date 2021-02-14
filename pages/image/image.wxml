@@ -1,0 +1,12 @@
+<!--pages/image/image.wxml-->
+<text>pages/image/image.wxml</text>
+<image src="../../assets/tabbar/cart_active.png"></image>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+<button bindtap="handleChoose">选中图片</button>
+<image src="{{imagePath}}"
+show-menu-by-longpress></image>
+<text>哈哈</text>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"
+  wx:for="{{10}}"
+  bindload="imageLoad"
+  lazy-load></image>

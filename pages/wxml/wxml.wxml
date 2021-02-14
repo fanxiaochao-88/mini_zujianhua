@@ -1,0 +1,52 @@
+<!--pages/wxml/wxml.wxml-->
+<!-- <text>pages/wxml/wxml.wxml</text>
+<view>{{message}}</view>
+<view>{{firstName+' '+lastName}}</view>
+
+<view>{{age>=18?'成年人':'未成年人'}}</view>
+
+<view>{{nowTime}}</view>
+
+<button size="mini" bindtap="handleBtn">切换颜色</button>
+<view class="wxml {{isActive?'active':''}}">哈哈哈哈</view>
+
+<view>------------------------------------</view>
+<button bindtap="handleShow">显示/隐藏</button>
+<view wx:if="{{isShow}}">哈哈哈</view>
+<view wx:else>呵呵呵</view>
+
+<view hidden="{{false}}">隐藏</view> -->
+
+<view>----------------------------------</view>
+<!-- <view wx:for="{{['a','b','c']}}">{{item}} {{index}}</view>
+<view wx:for="coderwhy">{{item}}{{index}}</view> -->
+<!-- <view wx:for="{{9}}">{{item}}</view> -->
+<!-- 
+<block wx:for="{{3}}">
+  <button>按钮</button>
+  <view>呵呵呵</view>
+  <text>我是内容</text>
+</block> -->
+
+<!-- <view wx:for="{{movies}}" wx:for-item="movie" wx:for-index="i" wx:key="{{index}}">{{movie}}{{i}}</view> -->
+
+<!-- <template name="contentItem">
+  <button size="mini">{{buttonText}}</button>
+  <view>{{viewText}}</view>
+</template> -->
+
+<!-- <import src="../../wxml/template.wxml"></import>
+      
+<template is='contentItem' data="{{buttonText:'按钮22',viewText:'内容'}}"></template> -->
+
+
+<!-- <view>{{25.6666666}}</view> -->
+
+<wxs src='/wxs/info.wxs' module="info"></wxs>
+
+<view>{{info.message1}}</view>
+<view>{{info.name1}}</view>
+<view>{{info.sum(10,20)}}</view>
+
+
+<view>{{format.priceFormat(price,3)}}</view>

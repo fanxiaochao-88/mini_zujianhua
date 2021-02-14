@@ -1,0 +1,11 @@
+<!--pages/input/input.wxml-->
+<input/>
+<input value="哈哈"/>
+<input type="number"/>
+<input type="idcard"/>
+<input type="password"/>
+<input placeholder="输入点啥呢" />
+<input confirm-type="go" />
+<input bindinput="handleInput"
+  bindfocus="handleFocus"
+  bindblur="handleBlur" />

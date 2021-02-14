@@ -1,0 +1,27 @@
+<!--pages/btn/btn.wxml-->
+<text>pages/btn/btn.wxml</text>
+<button bindtap="handleBtnClick">安妮1</button>
+<button bind:tap="handleBtnClick">安妮2</button>
+<button catch:tap="handleBtnClick">安妮3</button>
+
+<view class="box" 
+  bindtouchstart="handleTouchStart"
+  bindtouchmove="handleTouchMove"
+  bindtouchend="handleTouchEnd"
+  bindtap="handleTap"
+  bindlongpress="handleLongPress"></view>
+
+
+  <button id="btn01" 
+    bindtap="handleEventClick"
+    bindtouchend="handleEventEnd">事件对象</button>
+
+
+    <view class="btn_container">
+      <block wx:for="{{titles}}" wx:key="{{index}}">
+        <view class="btn_container_item" bindtap="handleItemClick"
+          data-index="{{index}}"
+          data-item="{{item}}"
+        >{{item}}</view>
+      </block>
+    </view>

@@ -1,0 +1,13 @@
+/* pages/btn/btn.wxss */
+.box{
+  width: 400rpx;
+  height: 400rpx;
+  background-color: orange;
+}
+.btn_container{
+  display: flex;
+}
+.btn_container_item{
+  flex: 1;
+  text-align: center;
+}

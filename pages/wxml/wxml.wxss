@@ -1,0 +1,7 @@
+/* pages/wxml/wxml.wxss */
+.wxml{
+  font-size: 64rpx;
+}
+.active{
+  color: red;
+}

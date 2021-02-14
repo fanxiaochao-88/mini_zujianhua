@@ -1,0 +1,11 @@
+<!--pages/wxss/wxss.wxml-->
+
+
+<text>pages/wxss/wxss.wxml</text>
+<view class="box1"></view>
+<view class="box2"></view>
+
+<view class="content1">哈哈哈</view>
+<view class="content2">呵呵呵</view>
+
+<button class="btn">按钮</button>
